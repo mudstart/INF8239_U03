@@ -1,0 +1,13 @@
+Ratings: (100836, 4) Movies: (9742, 3)
+Usuarios: 610 Ítems valorados: 9724
+Rango temporal: 828124615 1537799250
+Densidad: 0.016968273253211548
+count    100836.000000
+mean          3.501557
+std           1.042529
+min           0.500000
+25%           3.000000
+50%           3.500000
+75%           4.000000
+max           5.000000
+Name: rating, dtype: float64
