@@ -84,6 +84,16 @@ y `reports/cold_start_fallback.csv` se sobrescriben con la última corrida.
 Configuración seleccionada: 10 factores, 12 épocas, alpha 0.75. Análisis en
 `reports/lab09/analisis_factorizacion.md` y `reports/lab09/analisis_hibrido.md`.
 
+## Ejercicio 05 · Notebook ejecutado
+`notebooks/recomendador_e05.ipynb` consolida LAB08 y LAB09 usando el código de `src/`: auditoría,
+popularidad, contenido, factorización con corte temporal, comparación de modelos, Pareto y perfiles.
+Reproduce la configuración seleccionada y verifica que coincide con las métricas del script.
+Requiere los datos descargados y las corridas de `reports/lab09/`.
+
+## Dependencias
+`uv.lock` fija las versiones. `requirements.txt` se genera con
+`uv export --format requirements.txt --output-file requirements.txt` para entornos sin uv.
+
 ## Pruebas
 ```bash
 uv run pytest -q
