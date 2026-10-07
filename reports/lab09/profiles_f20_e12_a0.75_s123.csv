@@ -1,0 +1,31 @@
+profile,userId,history_size,rank,movieId,title,genres,normalized,content_score,hybrid_score,already_seen,is_heldout_item,personalized
+historial_amplio,414,2697,1,1203,12 Angry Men (1957),Drama,0.9999358070519682,0.8195953167906386,0.9548506844866358,False,False,True
+historial_amplio,414,2697,2,2324,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War,1.0,0.7235337192960789,0.9308834298240197,False,False,True
+historial_amplio,414,2697,3,92259,Intouchables (2011),Comedy|Drama,0.7089429267661596,1.0,0.7817071950746197,False,False,True
+historial_amplio,414,2697,4,74458,Shutter Island (2010),Drama|Mystery|Thriller,0.827133598171611,0.5228776065012012,0.7510696002540086,False,False,True
+historial_amplio,414,2697,5,898,"Philadelphia Story, The (1940)",Comedy|Drama|Romance,0.5870857996785032,0.9442594047552052,0.6763792009476787,False,False,True
+historial_amplio,414,2697,6,1230,Annie Hall (1977),Comedy|Romance,0.5604435758901368,0.6089670819413635,0.5725744524029435,False,False,True
+historial_amplio,414,2697,7,1244,Manhattan (1979),Comedy|Drama|Romance,0.4345174364947571,0.9442594047552052,0.5619529285598691,False,False,True
+historial_amplio,414,2697,8,3468,"Hustler, The (1961)",Drama,0.4415040737957639,0.8195953167906386,0.5360268845444826,False,False,True
+historial_amplio,414,2697,9,246,Hoop Dreams (1994),Documentary,0.7015564177878244,0.009536694541787478,0.5285514869763152,False,False,True
+historial_amplio,414,2697,10,1219,Psycho (1960),Crime|Horror,0.6119555813480065,0.1975650505351115,0.5083579486447828,False,False,True
+historial_pequeno,53,19,1,43919,Date Movie (2006),Comedy|Romance,0.855752336048718,0.71696065670766,0.8210544162134535,False,False,True
+historial_pequeno,53,19,2,355,"Flintstones, The (1994)",Children|Comedy|Fantasy,1.0,0.13753059740358436,0.7843826493508961,False,False,True
+historial_pequeno,53,19,3,26629,Killer Klowns from Outer Space (1988),Comedy|Horror|Sci-Fi,0.7928775501892393,0.4091158201879041,0.6969371176889055,False,False,True
+historial_pequeno,53,19,4,434,Cliffhanger (1993),Action|Adventure|Thriller,0.7905840174791866,0.35511198001905164,0.6817160081141529,False,False,True
+historial_pequeno,53,19,5,3354,Mission to Mars (2000),Sci-Fi,0.8317333550400753,0.17757731769586954,0.6681943457040238,False,False,True
+historial_pequeno,53,19,6,4132,Mannequin (1987),Comedy|Romance,0.6456113005180869,0.71696065670766,0.6634486395654802,False,False,True
+historial_pequeno,53,19,7,1499,Anaconda (1997),Action|Adventure|Thriller,0.739626964459867,0.35511198001905164,0.6434982183496631,False,False,True
+historial_pequeno,53,19,8,2471,Crocodile Dundee II (1988),Action|Adventure|Comedy,0.6864714145752531,0.49601094895222336,0.6388562981694956,False,False,True
+historial_pequeno,53,19,9,2421,"Karate Kid, Part II, The (1986)",Action|Adventure|Drama,0.5596714391916012,0.5545654191688295,0.5583949341859084,False,False,True
+historial_pequeno,53,19,10,1783,Palmetto (1998),Crime|Drama|Mystery|Romance|Thriller,0.48174019490633074,0.6925480264133056,0.5344421527830745,False,False,True
+usuario_nuevo,nuevo,0,1,356,Forrest Gump (1994),Comedy|Drama|Romance|War,,,,,,False
+usuario_nuevo,nuevo,0,2,318,"Shawshank Redemption, The (1994)",Crime|Drama,,,,,,False
+usuario_nuevo,nuevo,0,3,296,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,4,2571,"Matrix, The (1999)",Action|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,5,593,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,6,260,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,7,110,Braveheart (1995),Action|Drama|War,,,,,,False
+usuario_nuevo,nuevo,0,8,480,Jurassic Park (1993),Action|Adventure|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,9,589,Terminator 2: Judgment Day (1991),Action|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,10,2959,Fight Club (1999),Action|Crime|Drama|Thriller,,,,,,False

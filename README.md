@@ -40,11 +40,53 @@ uv run python scripts/download_data.py
 uv run python scripts/audit_data.py
 ```
 
-## Laboratorios
+## LAB08 · Popularidad y contenido
 ```bash
 uv run python scripts/lab08_content.py
-uv run python scripts/lab09_hybrid.py --factors 20 --epochs 12 --alpha 0.75
 uv run streamlit run app/streamlit_app.py
+```
+`lab08_content.py` genera el Top-10 de popularidad y tres consultas por contenido en `reports/`.
+
+## LAB09 · Colaborativo e híbrido
+En Windows (Git Bash) anteponga `PYTHONIOENCODING=utf-8` a los comandos `uv run python`.
+
+```bash
+# Experimento base
+uv run python scripts/lab09_hybrid.py --factors 20 --epochs 12 --alpha 0.75 --seed 42
+
+# Comparación de alpha (mismos factores, épocas y semilla)
+uv run python scripts/lab09_hybrid.py --factors 20 --epochs 12 --alpha 0.25 --seed 42
+
+# Tres semillas por configuración
+for f in 10 20 40; do for s in 42 7 123; do uv run python scripts/lab09_hybrid.py --factors $f --epochs 12 --alpha 0.75 --seed $s; done; done
+for s in 42 7 123; do uv run python scripts/lab09_hybrid.py --factors 20 --epochs 12 --alpha 0.25 --seed $s; done
+
+# Tabla de Pareto y comparación de modelos
+uv run python scripts/lab09_pareto.py
+```
+
+| Parámetro | Significado |
+|---|---|
+| `--factors` | Número de factores latentes de la factorización |
+| `--epochs` | Pasadas de entrenamiento |
+| `--alpha` | Peso de la señal colaborativa en el híbrido (el resto es contenido) |
+| `--seed` | Semilla de inicialización del modelo |
+
+Cada corrida (~30 s) guarda en `reports/lab09/`:
+- `metrics_f{factores}_e{épocas}_a{alpha}_s{semilla}.json`: RMSE, tiempo, tamaño del modelo y
+  HitRate@10, Precision@10 y cobertura de popularidad, contenido, colaborativo e híbrido.
+- `profiles_*.csv`: Top-10 de un usuario con historial amplio, uno con historial pequeño y un
+  usuario nuevo (fallback no personalizado).
+
+`lab09_pareto.py` genera `pareto.csv` y `model_comparison.csv`. Además, `reports/hybrid_metrics.json`
+y `reports/cold_start_fallback.csv` se sobrescriben con la última corrida.
+
+Configuración seleccionada: 10 factores, 12 épocas, alpha 0.75. Análisis en
+`reports/lab09/analisis_factorizacion.md` y `reports/lab09/analisis_hibrido.md`.
+
+## Pruebas
+```bash
+uv run pytest -q
 ```
 
 ## Interpretación

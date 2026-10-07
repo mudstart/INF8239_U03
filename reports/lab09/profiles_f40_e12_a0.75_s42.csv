@@ -1,0 +1,31 @@
+profile,userId,history_size,rank,movieId,title,genres,normalized,content_score,hybrid_score,already_seen,is_heldout_item,personalized
+historial_amplio,414,2697,1,1203,12 Angry Men (1957),Drama,1.0,0.8195953167906386,0.9548988291976597,False,False,True
+historial_amplio,414,2697,2,2324,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War,0.8497718702646208,0.7235337192960789,0.8182123325224853,False,False,True
+historial_amplio,414,2697,3,898,"Philadelphia Story, The (1940)",Comedy|Drama|Romance,0.49373220062709217,0.9442594047552052,0.6063640016591204,False,False,True
+historial_amplio,414,2697,4,1230,Annie Hall (1977),Comedy|Romance,0.5900312288718714,0.6089670819413635,0.5947651921392445,False,False,True
+historial_amplio,414,2697,5,92259,Intouchables (2011),Comedy|Drama,0.34840107012518734,1.0,0.5113008025938905,False,False,True
+historial_amplio,414,2697,6,1244,Manhattan (1979),Comedy|Drama|Romance,0.3454104928893451,0.9442594047552052,0.4951227208558101,False,False,True
+historial_amplio,414,2697,7,922,Sunset Blvd. (a.k.a. Sunset Boulevard) (1950),Drama|Film-Noir|Romance,0.5658800590067491,0.25594292975641375,0.48839577669416523,False,False,True
+historial_amplio,414,2697,8,914,My Fair Lady (1964),Comedy|Drama|Musical|Romance,0.4092051177030012,0.6692772487347212,0.4742231504609312,False,False,True
+historial_amplio,414,2697,9,44555,"Lives of Others, The (Das leben der Anderen) (2006)",Drama|Romance|Thriller,0.36917400591281496,0.7696128466130381,0.46928371608787073,False,False,True
+historial_amplio,414,2697,10,74458,Shutter Island (2010),Drama|Mystery|Thriller,0.42487041862120434,0.5228776065012012,0.44937221559120355,False,False,True
+historial_pequeno,53,19,1,356,Forrest Gump (1994),Comedy|Drama|Romance|War,1.0,0.726775811097911,0.9316939527744778,False,False,True
+historial_pequeno,53,19,2,168,First Knight (1995),Action|Drama|Romance,0.9467132884233921,0.8494631832754417,0.9224007621364044,False,False,True
+historial_pequeno,53,19,3,1882,Godzilla (1998),Action|Sci-Fi|Thriller,0.9857212092725437,0.4202069558177401,0.8443426459088428,False,False,True
+historial_pequeno,53,19,4,3731,Cutter's Way (1981),Drama|Thriller,0.8278359463297269,0.6043066469176717,0.7719536214767131,False,False,True
+historial_pequeno,53,19,5,72998,Avatar (2009),Action|Adventure|Sci-Fi|IMAX,0.9217480423409713,0.24699752158762392,0.7530604121526345,False,False,True
+historial_pequeno,53,19,6,317,"Santa Clause, The (1994)",Comedy|Drama|Fantasy,0.8270223018007715,0.5244046423357122,0.7513678869345067,False,False,True
+historial_pequeno,53,19,7,833,High School High (1996),Comedy,0.8030268425393361,0.5464148070401024,0.7388738336645276,False,False,True
+historial_pequeno,53,19,8,141818,Ordinary Miracle (1978),Comedy|Drama|Fantasy|Romance,0.7362042627613697,0.7185967459641043,0.7318023835620533,False,False,True
+historial_pequeno,53,19,9,6558,Curly Sue (1991),Comedy|Drama,0.6350049474894547,0.9226909417366473,0.7069264460512528,False,False,True
+historial_pequeno,53,19,10,575,"Little Rascals, The (1994)",Children|Comedy,0.7686534835314781,0.21425350421245973,0.6300534887017235,False,False,True
+usuario_nuevo,nuevo,0,1,356,Forrest Gump (1994),Comedy|Drama|Romance|War,,,,,,False
+usuario_nuevo,nuevo,0,2,318,"Shawshank Redemption, The (1994)",Crime|Drama,,,,,,False
+usuario_nuevo,nuevo,0,3,296,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,4,2571,"Matrix, The (1999)",Action|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,5,593,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,6,260,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,7,110,Braveheart (1995),Action|Drama|War,,,,,,False
+usuario_nuevo,nuevo,0,8,480,Jurassic Park (1993),Action|Adventure|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,9,589,Terminator 2: Judgment Day (1991),Action|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,10,2959,Fight Club (1999),Action|Crime|Drama|Thriller,,,,,,False

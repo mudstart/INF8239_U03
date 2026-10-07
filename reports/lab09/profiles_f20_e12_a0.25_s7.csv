@@ -1,0 +1,31 @@
+profile,userId,history_size,rank,movieId,title,genres,normalized,content_score,hybrid_score,already_seen,is_heldout_item,personalized
+historial_amplio,414,2697,1,92259,Intouchables (2011),Comedy|Drama,0.4575058056384372,1.0,0.8643764514096093,False,False,True
+historial_amplio,414,2697,2,898,"Philadelphia Story, The (1940)",Comedy|Drama|Romance,0.5280449458086925,0.9442594047552052,0.8402057900185771,False,False,True
+historial_amplio,414,2697,3,1244,Manhattan (1979),Comedy|Drama|Romance,0.5222605458961215,0.9442594047552052,0.8387596900404343,False,False,True
+historial_amplio,414,2697,4,1203,12 Angry Men (1957),Drama,0.8807253190896902,0.8195953167906386,0.8348778173654015,False,False,True
+historial_amplio,414,2697,5,2324,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War,1.0,0.7235337192960789,0.7926502894720592,False,False,True
+historial_amplio,414,2697,6,58,"Postman, The (Postino, Il) (1994)",Comedy|Drama|Romance,0.18859516754333658,0.9442594047552052,0.755343345452238,False,False,True
+historial_amplio,414,2697,7,1279,Night on Earth (1991),Comedy|Drama,3.654894212714789e-05,1.0,0.7500091372355318,False,False,True
+historial_amplio,414,2697,8,3462,Modern Times (1936),Comedy|Drama|Romance,0.1532439031184174,0.9442594047552052,0.7465055293460083,False,False,True
+historial_amplio,414,2697,9,954,Mr. Smith Goes to Washington (1939),Drama,0.5103786286829411,0.8195953167906386,0.7422911447637142,False,False,True
+historial_amplio,414,2697,10,3468,"Hustler, The (1961)",Drama,0.3917171735760318,0.8195953167906386,0.7126257809869868,False,False,True
+historial_pequeno,53,19,1,2431,Patch Adams (1998),Comedy|Drama,0.4726689137347026,0.9851910570668387,0.8570605212338047,False,False,True
+historial_pequeno,53,19,2,5945,About Schmidt (2002),Comedy|Drama,0.3228688301950232,0.9851910570668387,0.8196105003488848,False,False,True
+historial_pequeno,53,19,3,1912,Out of Sight (1998),Comedy|Crime|Drama|Romance|Thriller,0.2772017702392499,1.0,0.8193004425598125,False,False,True
+historial_pequeno,53,19,4,72,Kicking and Screaming (1995),Comedy|Drama,0.30870053797382185,0.9851910570668387,0.8160684272935845,False,False,True
+historial_pequeno,53,19,5,1243,Rosencrantz and Guildenstern Are Dead (1990),Comedy|Drama,0.1613120081425513,0.9851910570668387,0.7792212948357669,False,False,True
+historial_pequeno,53,19,6,252,I.Q. (1994),Comedy|Romance,0.7416159411829666,0.7851636225546471,0.774276702211727,False,False,True
+historial_pequeno,53,19,7,352,Crooklyn (1994),Comedy|Drama,0.13705006828923255,0.9851910570668387,0.7731558098724371,False,False,True
+historial_pequeno,53,19,8,3504,Network (1976),Comedy|Drama,0.038636910465095806,0.9851910570668387,0.748552520416403,False,False,True
+historial_pequeno,53,19,9,4228,Heartbreakers (2001),Comedy|Crime|Romance,0.5620370608941606,0.7511011972609937,0.7038351631692854,False,False,True
+historial_pequeno,53,19,10,62,Mr. Holland's Opus (1995),Drama,0.44676666148264066,0.7863230108456771,0.7014339235049181,False,False,True
+usuario_nuevo,nuevo,0,1,356,Forrest Gump (1994),Comedy|Drama|Romance|War,,,,,,False
+usuario_nuevo,nuevo,0,2,318,"Shawshank Redemption, The (1994)",Crime|Drama,,,,,,False
+usuario_nuevo,nuevo,0,3,296,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,4,2571,"Matrix, The (1999)",Action|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,5,593,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,6,260,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,7,110,Braveheart (1995),Action|Drama|War,,,,,,False
+usuario_nuevo,nuevo,0,8,480,Jurassic Park (1993),Action|Adventure|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,9,589,Terminator 2: Judgment Day (1991),Action|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,10,2959,Fight Club (1999),Action|Crime|Drama|Thriller,,,,,,False

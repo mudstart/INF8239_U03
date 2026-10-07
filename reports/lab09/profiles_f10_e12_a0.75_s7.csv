@@ -1,0 +1,31 @@
+profile,userId,history_size,rank,movieId,title,genres,normalized,content_score,hybrid_score,already_seen,is_heldout_item,personalized
+historial_amplio,414,2697,1,2324,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War,1.0,0.7235337192960789,0.9308834298240197,False,False,True
+historial_amplio,414,2697,2,1203,12 Angry Men (1957),Drama,0.9173714605660341,0.8195953167906386,0.8929274246221852,False,False,True
+historial_amplio,414,2697,3,1230,Annie Hall (1977),Comedy|Romance,0.7162205282995059,0.6089670819413635,0.6894071667099704,False,False,True
+historial_amplio,414,2697,4,1244,Manhattan (1979),Comedy|Drama|Romance,0.5779703445253328,0.9442594047552052,0.6695426095828009,False,False,True
+historial_amplio,414,2697,5,92259,Intouchables (2011),Comedy|Drama,0.5241111004609219,1.0,0.6430833253456915,False,False,True
+historial_amplio,414,2697,6,44555,"Lives of Others, The (Das leben der Anderen) (2006)",Drama|Romance|Thriller,0.5083090648762136,0.7696128466130381,0.5736350103104197,False,False,True
+historial_amplio,414,2697,7,1219,Psycho (1960),Crime|Horror,0.6827546647920333,0.1975650505351115,0.5614572612278029,False,False,True
+historial_amplio,414,2697,8,3681,For a Few Dollars More (Per qualche dollaro in più) (1965),Action|Drama|Thriller|Western,0.5284915033711791,0.49000800108072,0.5188706277985643,False,False,True
+historial_amplio,414,2697,9,954,Mr. Smith Goes to Washington (1939),Drama,0.3995451875128185,0.8195953167906386,0.5045577198322735,False,False,True
+historial_amplio,414,2697,10,3468,"Hustler, The (1961)",Drama,0.39303255807153614,0.8195953167906386,0.4996732477513117,False,False,True
+historial_pequeno,53,19,1,1972,"Nightmare on Elm Street 5: The Dream Child, A (1989)",Horror,1.0,0.09783403091919946,0.7744585077297998,False,False,True
+historial_pequeno,53,19,2,318,"Shawshank Redemption, The (1994)",Crime|Drama,0.8398764713610615,0.553143021952449,0.7681931090089084,False,False,True
+historial_pequeno,53,19,3,1721,Titanic (1997),Drama|Romance,0.7209756139561643,0.8089938142642915,0.7429801640331961,False,False,True
+historial_pequeno,53,19,4,110,Braveheart (1995),Action|Drama|War,0.7305614583827658,0.47720132730654646,0.6672214256137109,False,False,True
+historial_pequeno,53,19,5,1097,E.T. the Extra-Terrestrial (1982),Children|Drama|Sci-Fi,0.7551364012340251,0.36299631537135496,0.6571013797683577,False,False,True
+historial_pequeno,53,19,6,2471,Crocodile Dundee II (1988),Action|Adventure|Comedy,0.7060031478884227,0.5094653191286039,0.656868690698468,False,False,True
+historial_pequeno,53,19,7,4299,"Knight's Tale, A (2001)",Action|Comedy|Romance,0.599790279002757,0.7885457029149938,0.6469791349808163,False,False,True
+historial_pequeno,53,19,8,2953,Home Alone 2: Lost in New York (1992),Children|Comedy,0.7422733826833118,0.22844111892764588,0.6138153167443954,False,False,True
+historial_pequeno,53,19,9,1499,Anaconda (1997),Action|Adventure|Thriller,0.6488245381618983,0.37232775509412225,0.5797003423949543,False,False,True
+historial_pequeno,53,19,10,356,Forrest Gump (1994),Comedy|Drama|Romance|War,0.5057575255141346,0.7317092082480018,0.5622454461976014,False,False,True
+usuario_nuevo,nuevo,0,1,356,Forrest Gump (1994),Comedy|Drama|Romance|War,,,,,,False
+usuario_nuevo,nuevo,0,2,318,"Shawshank Redemption, The (1994)",Crime|Drama,,,,,,False
+usuario_nuevo,nuevo,0,3,296,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,4,2571,"Matrix, The (1999)",Action|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,5,593,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,6,260,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,7,110,Braveheart (1995),Action|Drama|War,,,,,,False
+usuario_nuevo,nuevo,0,8,480,Jurassic Park (1993),Action|Adventure|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,9,589,Terminator 2: Judgment Day (1991),Action|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,10,2959,Fight Club (1999),Action|Crime|Drama|Thriller,,,,,,False

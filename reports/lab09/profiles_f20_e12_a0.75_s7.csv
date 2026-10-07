@@ -1,0 +1,31 @@
+profile,userId,history_size,rank,movieId,title,genres,normalized,content_score,hybrid_score,already_seen,is_heldout_item,personalized
+historial_amplio,414,2697,1,2324,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War,1.0,0.7235337192960789,0.9308834298240197,False,False,True
+historial_amplio,414,2697,2,1203,12 Angry Men (1957),Drama,0.8807253190896902,0.8195953167906386,0.8654428185149273,False,False,True
+historial_amplio,414,2697,3,1230,Annie Hall (1977),Comedy|Romance,0.6695636391598083,0.6089670819413635,0.6544144998551971,False,False,True
+historial_amplio,414,2697,4,898,"Philadelphia Story, The (1940)",Comedy|Drama|Romance,0.5280449458086925,0.9442594047552052,0.6320985605453207,False,False,True
+historial_amplio,414,2697,5,1244,Manhattan (1979),Comedy|Drama|Romance,0.5222605458961215,0.9442594047552052,0.6277602606108924,False,False,True
+historial_amplio,414,2697,6,92259,Intouchables (2011),Comedy|Drama,0.4575058056384372,1.0,0.5931293542288278,False,False,True
+historial_amplio,414,2697,7,954,Mr. Smith Goes to Washington (1939),Drama,0.5103786286829411,0.8195953167906386,0.5876828007098656,False,False,True
+historial_amplio,414,2697,8,74458,Shutter Island (2010),Drama|Mystery|Thriller,0.5347361979369707,0.5228776065012012,0.5317715500780283,False,False,True
+historial_amplio,414,2697,9,914,My Fair Lady (1964),Comedy|Drama|Musical|Romance,0.47902439210600367,0.6692772487347212,0.5265876062631831,False,False,True
+historial_amplio,414,2697,10,1219,Psycho (1960),Crime|Horror,0.6125551084771705,0.1975650505351115,0.5088075939916558,False,False,True
+historial_pequeno,53,19,1,15,Cutthroat Island (1995),Action|Adventure|Romance,1.0,0.5773379765544889,0.8943344941386222,False,False,True
+historial_pequeno,53,19,2,1732,"Big Lebowski, The (1998)",Comedy|Crime,0.9881968281758913,0.5409835898203399,0.8763935185870034,False,False,True
+historial_pequeno,53,19,3,252,I.Q. (1994),Comedy|Romance,0.7416159411829666,0.7851636225546471,0.7525028615258867,False,False,True
+historial_pequeno,53,19,4,2806,Teaching Mrs. Tingle (1999),Comedy|Thriller,0.7662919937272166,0.5878502801380637,0.7216815653299283,False,False,True
+historial_pequeno,53,19,5,2373,Red Sonja (1985),Action|Adventure|Fantasy,0.8725894223519283,0.25334305650563316,0.7177778308903545,False,False,True
+historial_pequeno,53,19,6,3268,Stop! Or My Mom Will Shoot (1992),Action|Comedy,0.6638821165654442,0.6652150473884535,0.6642153492711965,False,False,True
+historial_pequeno,53,19,7,3511,Ready to Rumble (2000),Comedy,0.6575803391558463,0.6148626125769291,0.6469009075111171,False,False,True
+historial_pequeno,53,19,8,1342,Candyman (1992),Horror|Thriller,0.739919908578092,0.29513549224799385,0.6287238044955674,False,False,True
+historial_pequeno,53,19,9,4228,Heartbreakers (2001),Comedy|Crime|Romance,0.5620370608941606,0.7511011972609937,0.6093030949858689,False,False,True
+historial_pequeno,53,19,10,2058,"Negotiator, The (1998)",Action|Crime|Drama|Mystery|Thriller,0.5764697961633312,0.6931199441245622,0.605632333153639,False,False,True
+usuario_nuevo,nuevo,0,1,356,Forrest Gump (1994),Comedy|Drama|Romance|War,,,,,,False
+usuario_nuevo,nuevo,0,2,318,"Shawshank Redemption, The (1994)",Crime|Drama,,,,,,False
+usuario_nuevo,nuevo,0,3,296,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,4,2571,"Matrix, The (1999)",Action|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,5,593,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,6,260,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,7,110,Braveheart (1995),Action|Drama|War,,,,,,False
+usuario_nuevo,nuevo,0,8,480,Jurassic Park (1993),Action|Adventure|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,9,589,Terminator 2: Judgment Day (1991),Action|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,10,2959,Fight Club (1999),Action|Crime|Drama|Thriller,,,,,,False

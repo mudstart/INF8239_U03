@@ -1,0 +1,29 @@
+Tabla de Pareto (utilidad = HitRate@10 del híbrido; costo = segundos de entrenamiento y KB):
+
+ factors  epochs  alpha  seeds  rmse_mean  rmse_std  hit_rate_mean  hit_rate_std  coverage_mean  train_seconds_mean  model_kb  dominated_by  pareto_optimal
+      10      12   0.75      3     1.0322    0.0051         0.0403        0.0094         0.0557             13.5413  805.5469                          True
+      20      12   0.25      3     1.0261    0.0003         0.0267        0.0052         0.1015             13.6255 1611.0938 f10_e12_a0.75           False
+      20      12   0.75      3     1.0261    0.0003         0.0352        0.0055         0.0723             14.6613 1611.0938 f10_e12_a0.75           False
+      40      12   0.75      3     1.0213    0.0030         0.0386        0.0060         0.0974             16.0168 3222.1875 f10_e12_a0.75           False
+
+Comparación de modelos (promedio entre semillas):
+
+        model  factors  alpha  hit_rate_at_10  precision_at_10  catalog_coverage
+collaborative       10   0.75          0.0392           0.0039            0.0536
+collaborative       20   0.25          0.0352           0.0035            0.0701
+collaborative       20   0.75          0.0352           0.0035            0.0701
+collaborative       40   0.75          0.0363           0.0036            0.0976
+      content       10   0.75          0.0017           0.0002            0.0779
+      content       20   0.25          0.0017           0.0002            0.0779
+      content       20   0.75          0.0017           0.0002            0.0779
+      content       40   0.75          0.0017           0.0002            0.0779
+       hybrid       10   0.75          0.0403           0.0040            0.0557
+       hybrid       20   0.25          0.0267           0.0027            0.1015
+       hybrid       20   0.75          0.0352           0.0035            0.0723
+       hybrid       40   0.75          0.0386           0.0039            0.0974
+   popularity       10   0.75          0.0426           0.0043            0.0122
+   popularity       20   0.25          0.0426           0.0043            0.0122
+   popularity       20   0.75          0.0426           0.0043            0.0122
+   popularity       40   0.75          0.0426           0.0043            0.0122
+
+Guardado en reports/lab09/pareto.csv y reports/lab09/model_comparison.csv

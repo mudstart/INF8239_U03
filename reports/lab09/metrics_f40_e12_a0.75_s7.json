@@ -1,0 +1,37 @@
+{
+  "rmse": 1.0243677702192988,
+  "hit_rate_at_10": 0.03236797274275979,
+  "catalog_coverage": 0.09493866611689517,
+  "train_seconds": 15.612045900008525,
+  "total_seconds": 33.597014899991336,
+  "model_kb": 3222.1875,
+  "parameters": 412440,
+  "factors": 40,
+  "epochs": 12,
+  "alpha": 0.75,
+  "seed": 7,
+  "evaluated_users": 587,
+  "models": {
+    "popularity": {
+      "hit_rate_at_10": 0.04258943781942078,
+      "precision_at_10": 0.004258943781942078,
+      "catalog_coverage": 0.012163694464488197
+    },
+    "content": {
+      "hit_rate_at_10": 0.0017035775127768314,
+      "precision_at_10": 0.00017035775127768313,
+      "catalog_coverage": 0.07793011029790743
+    },
+    "collaborative": {
+      "hit_rate_at_10": 0.030664395229982964,
+      "precision_at_10": 0.0030664395229982964,
+      "catalog_coverage": 0.09473250180393773
+    },
+    "hybrid": {
+      "hit_rate_at_10": 0.03236797274275979,
+      "precision_at_10": 0.003236797274275979,
+      "catalog_coverage": 0.09493866611689517
+    }
+  },
+  "cold_start_policy": "popularidad por cantidad y media; no personalizada"
+}

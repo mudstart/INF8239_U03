@@ -1,0 +1,31 @@
+profile,userId,history_size,rank,movieId,title,genres,normalized,content_score,hybrid_score,already_seen,is_heldout_item,personalized
+historial_amplio,414,2697,1,1203,12 Angry Men (1957),Drama,1.0,0.8195953167906386,0.9548988291976597,False,False,True
+historial_amplio,414,2697,2,2324,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War,0.8272679760000875,0.7235337192960789,0.8013344118240854,False,False,True
+historial_amplio,414,2697,3,898,"Philadelphia Story, The (1940)",Comedy|Drama|Romance,0.4939409879596628,0.9442594047552052,0.6065205921585484,False,False,True
+historial_amplio,414,2697,4,1230,Annie Hall (1977),Comedy|Romance,0.5787319126040408,0.6089670819413635,0.5862907049383714,False,False,True
+historial_amplio,414,2697,5,914,My Fair Lady (1964),Comedy|Drama|Musical|Romance,0.5483895945248489,0.6692772487347212,0.578611508077317,False,False,True
+historial_amplio,414,2697,6,74458,Shutter Island (2010),Drama|Mystery|Thriller,0.5885859523510016,0.5228776065012012,0.5721588658885515,False,False,True
+historial_amplio,414,2697,7,1244,Manhattan (1979),Comedy|Drama|Romance,0.4112249528197949,0.9442594047552052,0.5444835658036474,False,False,True
+historial_amplio,414,2697,8,44555,"Lives of Others, The (Das leben der Anderen) (2006)",Drama|Romance|Thriller,0.4659944373297869,0.7696128466130381,0.5418990396505997,False,False,True
+historial_amplio,414,2697,9,92259,Intouchables (2011),Comedy|Drama,0.35108418076500475,1.0,0.5133131355737536,False,False,True
+historial_amplio,414,2697,10,246,Hoop Dreams (1994),Documentary,0.6347908239061987,0.009536694541787478,0.4784772915650959,False,False,True
+historial_pequeno,53,19,1,4015,"Dude, Where's My Car? (2000)",Comedy|Sci-Fi,1.0,0.3532569900321916,0.8383142475080478,False,False,True
+historial_pequeno,53,19,2,2006,"Mask of Zorro, The (1998)",Action|Comedy|Romance,0.8620200403014127,0.7656148598683534,0.8379187451931478,False,False,True
+historial_pequeno,53,19,3,3623,Mission: Impossible II (2000),Action|Adventure|Thriller,0.8477252324991161,0.3042607830293124,0.7118591201316652,False,False,True
+historial_pequeno,53,19,4,5481,Austin Powers in Goldmember (2002),Comedy,0.7767746263738763,0.5063046353011271,0.709157128605689,False,False,True
+historial_pequeno,53,19,5,2710,"Blair Witch Project, The (1999)",Drama|Horror|Thriller,0.7631753446094224,0.46805964922210075,0.689396420762592,False,False,True
+historial_pequeno,53,19,6,3882,Bring It On (2000),Comedy,0.7003554455248118,0.5063046353011271,0.6518427429688907,False,False,True
+historial_pequeno,53,19,7,2411,Rocky IV (1985),Action|Drama,0.6322678423186526,0.6561524679530121,0.6382389987272424,False,False,True
+historial_pequeno,53,19,8,500,Mrs. Doubtfire (1993),Comedy|Drama,0.5009197163455902,0.9158545642445018,0.6046534283203181,False,False,True
+historial_pequeno,53,19,9,317,"Santa Clause, The (1994)",Comedy|Drama|Fantasy,0.6413418630166636,0.4823481295344655,0.6015934296461141,False,False,True
+historial_pequeno,53,19,10,1917,Armageddon (1998),Action|Romance|Sci-Fi|Thriller,0.5776370120371863,0.5659530254450753,0.5747160153891586,False,False,True
+usuario_nuevo,nuevo,0,1,356,Forrest Gump (1994),Comedy|Drama|Romance|War,,,,,,False
+usuario_nuevo,nuevo,0,2,318,"Shawshank Redemption, The (1994)",Crime|Drama,,,,,,False
+usuario_nuevo,nuevo,0,3,296,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,4,2571,"Matrix, The (1999)",Action|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,5,593,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,6,260,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,7,110,Braveheart (1995),Action|Drama|War,,,,,,False
+usuario_nuevo,nuevo,0,8,480,Jurassic Park (1993),Action|Adventure|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,9,589,Terminator 2: Judgment Day (1991),Action|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,10,2959,Fight Club (1999),Action|Crime|Drama|Thriller,,,,,,False

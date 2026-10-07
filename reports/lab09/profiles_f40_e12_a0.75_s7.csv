@@ -1,0 +1,31 @@
+profile,userId,history_size,rank,movieId,title,genres,normalized,content_score,hybrid_score,already_seen,is_heldout_item,personalized
+historial_amplio,414,2697,1,1203,12 Angry Men (1957),Drama,1.0,0.8195953167906386,0.9548988291976597,False,False,True
+historial_amplio,414,2697,2,2324,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War,0.8380759164023973,0.7235337192960789,0.8094403671258177,False,False,True
+historial_amplio,414,2697,3,898,"Philadelphia Story, The (1940)",Comedy|Drama|Romance,0.47598449321042713,0.9442594047552052,0.5930532210966216,False,False,True
+historial_amplio,414,2697,4,926,All About Eve (1950),Drama,0.4971128279049104,0.8195953167906386,0.5777334501263425,False,False,True
+historial_amplio,414,2697,5,954,Mr. Smith Goes to Washington (1939),Drama,0.4891619058272179,0.8195953167906386,0.5717702585680731,False,False,True
+historial_amplio,414,2697,6,1244,Manhattan (1979),Comedy|Drama|Romance,0.3423452160948983,0.9442594047552052,0.492823763259975,False,False,True
+historial_amplio,414,2697,7,92259,Intouchables (2011),Comedy|Drama,0.2847248791940116,1.0,0.46354365939550873,False,False,True
+historial_amplio,414,2697,8,3681,For a Few Dollars More (Per qualche dollaro in più) (1965),Action|Drama|Thriller|Western,0.4543537705736193,0.49000800108072,0.46326732820039446,False,False,True
+historial_amplio,414,2697,9,1287,Ben-Hur (1959),Action|Adventure|Drama,0.36103335482562926,0.6776202498035067,0.4401800785700986,False,False,True
+historial_amplio,414,2697,10,1230,Annie Hall (1977),Comedy|Romance,0.3523739776369196,0.6089670819413635,0.4165222537130306,False,False,True
+historial_pequeno,53,19,1,43928,Ultraviolet (2006),Action|Fantasy|Sci-Fi|Thriller,1.0,0.2938733957231518,0.8234683489307879,False,False,True
+historial_pequeno,53,19,2,4254,Crocodile Dundee in Los Angeles (2001),Comedy|Drama,0.6312981167857277,0.9158545642445018,0.7024372286504212,False,False,True
+historial_pequeno,53,19,3,5585,Ernest Scared Stupid (1991),Comedy,0.5933860985335303,0.5063046353011271,0.5716157327254294,False,False,True
+historial_pequeno,53,19,4,58,"Postman, The (Postino, Il) (1994)",Comedy|Drama|Romance,0.40642166565531285,1.0,0.5548162492414846,False,False,True
+historial_pequeno,53,19,5,95,Broken Arrow (1996),Action|Adventure|Thriller,0.5793809309637548,0.3042607830293124,0.5106008939801442,False,False,True
+historial_pequeno,53,19,6,4374,Let It Snow (1999),Comedy|Romance,0.44000159298201563,0.6946422247386022,0.5036617509211623,False,False,True
+historial_pequeno,53,19,7,7184,This Property is Condemned (1966),Drama|Romance,0.3942991523832351,0.7882804358821902,0.4927944732579739,False,False,True
+historial_pequeno,53,19,8,1831,Lost in Space (1998),Action|Adventure|Sci-Fi,0.5408985286896157,0.2861453274752054,0.4772102283860131,False,False,True
+historial_pequeno,53,19,9,2253,Toys (1992),Comedy|Fantasy,0.5225405351408121,0.15585282095973746,0.43086860659554344,False,False,True
+historial_pequeno,53,19,10,3593,Battlefield Earth (2000),Action|Sci-Fi,0.4784701673783522,0.2808625459581451,0.4290682620233004,False,False,True
+usuario_nuevo,nuevo,0,1,356,Forrest Gump (1994),Comedy|Drama|Romance|War,,,,,,False
+usuario_nuevo,nuevo,0,2,318,"Shawshank Redemption, The (1994)",Crime|Drama,,,,,,False
+usuario_nuevo,nuevo,0,3,296,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,4,2571,"Matrix, The (1999)",Action|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,5,593,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,6,260,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,7,110,Braveheart (1995),Action|Drama|War,,,,,,False
+usuario_nuevo,nuevo,0,8,480,Jurassic Park (1993),Action|Adventure|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,9,589,Terminator 2: Judgment Day (1991),Action|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,10,2959,Fight Club (1999),Action|Crime|Drama|Thriller,,,,,,False

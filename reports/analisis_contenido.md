@@ -1,6 +1,6 @@
 # LAB08 · Análisis de popularidad y recomendación por contenido
 
-Evidencia: `reports/popular_top10.csv` y `reports/content_recommendations.csv`, generados con
+Evidencia: `reports/popular_top10.csv` y `reports/content_recommendations.csv`, que generé con
 `uv run python scripts/lab08_content.py` sobre MovieLens Latest Small
 (SHA-256 `696d65a3…e436`, descargado el 2026-10-06).
 
@@ -22,6 +22,8 @@ Evidencia: `reports/popular_top10.csv` y `reports/content_recommendations.csv`, 
 El puntaje suavizado combina la media de cada película con la media global (3.50), con peso
 `m = 12` (percentil 80 de conteos). Solo compiten las 1 967 películas con al menos 12 ratings.
 
+Al comparar `mean`, `count` y `weighted_score` observé lo siguiente:
+
 - **La evidencia cambia el orden.** *Godfather: Part II* tiene una media mayor que *Star Wars*
   (4.260 contra 4.231), pero con 129 ratings frente a 251; al suavizar queda por debajo
   (4.195 contra 4.198). Lo mismo ocurre con *Dr. Strangelove* (media 4.268, solo 97 ratings), que
@@ -34,7 +36,7 @@ El puntaje suavizado combina la media de cada película con la media global (3.5
 ## 2. Consultas por contenido
 
 El modelo representa los géneros de cada película con TF-IDF y ordena por similitud coseno.
-Se consultaron tres películas de géneros distintos:
+Elegí tres películas de géneros distintos para consultar:
 
 | Consulta | Géneros | Películas con géneros idénticos | Puesto en popularidad |
 |---|---|---|---|
@@ -42,7 +44,8 @@ Se consultaron tres películas de géneros distintos:
 | Shawshank Redemption, The (1994) | Crime, Drama | 133 | 1 |
 | Shining, The (1980) | Horror | 166 | 66 |
 
-En las tres consultas, las 10 recomendaciones tienen `content_score = 1.0`.
+En las tres consultas, las 10 recomendaciones tienen `content_score = 1.0`. En cada caso verifiqué
+que la película consultada no aparece en su propio Top-10.
 
 ### 2.1 Toy Story (1995)
 Turbo · Emperor's New Groove · Adventures of Rocky and Bullwinkle · **Toy Story 2** · Asterix and
@@ -81,14 +84,14 @@ Halloween (2007) · Spirit Camp · The Human Centipede · The Awakening · The L
 
 ## 3. Interpretación
 
-**Qué representa la similitud.** `content_score = 1.0` significa «tiene exactamente los mismos
+**Qué representa la similitud.** Interpreto que `content_score = 1.0` significa «tiene exactamente los mismos
 géneros registrados en el catálogo», no «le gustará al usuario» ni «es una buena película». El
 modelo no usa ratings, sinopsis, director, año ni tags.
 
 **Por qué hay empates.** Hay 9 742 películas pero solo 951 combinaciones distintas de géneros. Cuando
 varias películas comparten la combinación de la consulta, todas obtienen 1.0 y el orden entre
-ellas depende solo de cómo el algoritmo de ordenamiento resuelve los empates. Ese orden es
-arbitrario y no se debe interpretar: el puesto 1 no es «más parecido» que el puesto 10.
+ellas depende solo de cómo el algoritmo de ordenamiento resuelve los empates. Por eso no
+interpreto ese orden: el puesto 1 no es «más parecido» que el puesto 10.
 
 **Sobre-especialización.** En las tres consultas, el 100 % de las recomendaciones repite los géneros
 de la película consultada. Quien consulta *Toy Story* nunca verá una comedia para adultos ni un
@@ -100,7 +103,6 @@ drama, aunque el historial real de quienes valoraron *Toy Story* incluya esos g�
 - *Usuario nuevo*: el modelo por contenido necesita una película de referencia; sin ella, la
   única respuesta disponible es el Top-10 de popularidad.
 
-**Posibles mejoras.** Desempatar con `weighted_score` para que entre películas igual de
-similares se prefieran las mejor valoradas; agregar señales más finas (tags, año, director);
-medir la diversidad de géneros del Top-10; y combinar contenido con filtrado colaborativo, que es
-el objetivo del LAB09.
+**Posibles mejoras.** Propongo desempatar con `weighted_score` para que entre películas igual de
+similares se prefieran las mejor valoradas, y combinar el contenido con filtrado colaborativo en un
+modelo híbrido, que desarrollo en el LAB09.

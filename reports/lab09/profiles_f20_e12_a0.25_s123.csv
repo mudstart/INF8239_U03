@@ -1,0 +1,31 @@
+profile,userId,history_size,rank,movieId,title,genres,normalized,content_score,hybrid_score,already_seen,is_heldout_item,personalized
+historial_amplio,414,2697,1,92259,Intouchables (2011),Comedy|Drama,0.7089429267661596,1.0,0.9272357316915398,False,False,True
+historial_amplio,414,2697,2,1203,12 Angry Men (1957),Drama,0.9999358070519682,0.8195953167906386,0.8646804393559709,False,False,True
+historial_amplio,414,2697,3,898,"Philadelphia Story, The (1940)",Comedy|Drama|Romance,0.5870857996785032,0.9442594047552052,0.8549660034860297,False,False,True
+historial_amplio,414,2697,4,1244,Manhattan (1979),Comedy|Drama|Romance,0.4345174364947571,0.9442594047552052,0.8168239126900932,False,False,True
+historial_amplio,414,2697,5,2324,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War,1.0,0.7235337192960789,0.7926502894720592,False,False,True
+historial_amplio,414,2697,6,3462,Modern Times (1936),Comedy|Drama|Romance,0.31876396630027914,0.9442594047552052,0.7878855451414737,False,False,True
+historial_amplio,414,2697,7,3925,Stranger Than Paradise (1984),Comedy|Drama,0.06853333630986973,1.0,0.7671333340774674,False,False,True
+historial_amplio,414,2697,8,272,"Madness of King George, The (1994)",Comedy|Drama,0.06284028951734567,1.0,0.7657100723793364,False,False,True
+historial_amplio,414,2697,9,3200,"Last Detail, The (1973)",Comedy|Drama,0.0017204364285805735,1.0,0.7504301091071451,False,False,True
+historial_amplio,414,2697,10,58,"Postman, The (Postino, Il) (1994)",Comedy|Drama|Romance,0.16081501349842475,0.9442594047552052,0.7483983069410101,False,False,True
+historial_pequeno,53,19,1,2369,Desperately Seeking Susan (1985),Comedy|Drama|Romance,0.1585766778061785,1.0,0.7896441694515446,False,False,True
+historial_pequeno,53,19,2,5074,Storytelling (2001),Comedy|Drama,0.3506421567346526,0.9220047078974944,0.7791640701067839,False,False,True
+historial_pequeno,53,19,3,372,Reality Bites (1994),Comedy|Drama|Romance,0.08706497361142856,1.0,0.7717662434028572,False,False,True
+historial_pequeno,53,19,4,3912,Beautiful (2000),Comedy|Drama,0.2576454166919445,0.9220047078974944,0.7559148850961069,False,False,True
+historial_pequeno,53,19,5,43919,Date Movie (2006),Comedy|Romance,0.855752336048718,0.71696065670766,0.7516585765429245,False,False,True
+historial_pequeno,53,19,6,852,Tin Cup (1996),Comedy|Drama|Romance,0.0,1.0,0.75,False,False,True
+historial_pequeno,53,19,7,1648,"House of Yes, The (1997)",Comedy|Drama,0.17472190732459333,0.9220047078974944,0.7351840077542691,False,False,True
+historial_pequeno,53,19,8,133281,Ricki and the Flash (2015),Comedy|Drama,0.04203927600079429,0.9220047078974944,0.7020133499233193,False,False,True
+historial_pequeno,53,19,9,4132,Mannequin (1987),Comedy|Romance,0.6456113005180869,0.71696065670766,0.6991233176602667,False,False,True
+historial_pequeno,53,19,10,168,First Knight (1995),Action|Drama|Romance,0.21920100231850204,0.8481269432539573,0.6908954580200934,False,False,True
+usuario_nuevo,nuevo,0,1,356,Forrest Gump (1994),Comedy|Drama|Romance|War,,,,,,False
+usuario_nuevo,nuevo,0,2,318,"Shawshank Redemption, The (1994)",Crime|Drama,,,,,,False
+usuario_nuevo,nuevo,0,3,296,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,4,2571,"Matrix, The (1999)",Action|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,5,593,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,6,260,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,7,110,Braveheart (1995),Action|Drama|War,,,,,,False
+usuario_nuevo,nuevo,0,8,480,Jurassic Park (1993),Action|Adventure|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,9,589,Terminator 2: Judgment Day (1991),Action|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,10,2959,Fight Club (1999),Action|Crime|Drama|Thriller,,,,,,False

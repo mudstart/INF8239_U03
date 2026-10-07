@@ -1,0 +1,31 @@
+profile,userId,history_size,rank,movieId,title,genres,normalized,content_score,hybrid_score,already_seen,is_heldout_item,personalized
+historial_amplio,414,2697,1,1203,12 Angry Men (1957),Drama,1.0,0.8195953167906386,0.9548988291976597,False,False,True
+historial_amplio,414,2697,2,2324,Life Is Beautiful (La Vita è bella) (1997),Comedy|Drama|Romance|War,0.8500234647647518,0.7235337192960789,0.8184010283975836,False,False,True
+historial_amplio,414,2697,3,92259,Intouchables (2011),Comedy|Drama,0.47978493818381146,1.0,0.6098387036378585,False,False,True
+historial_amplio,414,2697,4,1230,Annie Hall (1977),Comedy|Romance,0.5993330223664439,0.6089670819413635,0.6017415372601738,False,False,True
+historial_amplio,414,2697,5,1244,Manhattan (1979),Comedy|Drama|Romance,0.403447575091279,0.9442594047552052,0.5386505325072606,False,False,True
+historial_amplio,414,2697,6,898,"Philadelphia Story, The (1940)",Comedy|Drama|Romance,0.38310347760617147,0.9442594047552052,0.5233924593934299,False,False,True
+historial_amplio,414,2697,7,74458,Shutter Island (2010),Drama|Mystery|Thriller,0.5235559148211139,0.5228776065012012,0.5233863377411356,False,False,True
+historial_amplio,414,2697,8,954,Mr. Smith Goes to Washington (1939),Drama,0.380792281650952,0.8195953167906386,0.4904930404358737,False,False,True
+historial_amplio,414,2697,9,58,"Postman, The (Postino, Il) (1994)",Comedy|Drama|Romance,0.3287912333131206,0.9442594047552052,0.48265827617364176,False,False,True
+historial_amplio,414,2697,10,1219,Psycho (1960),Crime|Horror,0.5599307733131137,0.1975650505351115,0.46933934261861315,False,False,True
+historial_pequeno,53,19,1,6294,Bulletproof Monk (2003),Action|Adventure|Sci-Fi,1.0,0.39177983478913475,0.8479449586972837,False,False,True
+historial_pequeno,53,19,2,5323,Jason X (2002),Horror|Sci-Fi|Thriller,0.9812465465100076,0.3675578032638786,0.8278243606984754,False,False,True
+historial_pequeno,53,19,3,4247,Joe Dirt (2001),Adventure|Comedy|Mystery|Romance,0.9030428682728007,0.5665103306323149,0.8189097338626793,False,False,True
+historial_pequeno,53,19,4,7450,Laws of Attraction (2004),Comedy|Romance,0.6233440943144823,0.7398283380831148,0.6524651552566405,False,False,True
+historial_pequeno,53,19,5,5501,"Master of Disguise, The (2002)",Comedy|Mystery,0.685409274726152,0.3823737836437078,0.6096504019555409,False,False,True
+historial_pequeno,53,19,6,4104,Ernest Goes to Camp (1987),Comedy,0.552025376390637,0.5793604947363328,0.5588591559770609,False,False,True
+historial_pequeno,53,19,7,1556,Speed 2: Cruise Control (1997),Action|Romance|Thriller,0.5286112177058061,0.6459843964628187,0.5579545123950593,False,False,True
+historial_pequeno,53,19,8,36401,"Brothers Grimm, The (2005)",Comedy|Fantasy|Horror|Thriller,0.5899013011784373,0.39502320705215427,0.5411817776468666,False,False,True
+historial_pequeno,53,19,9,1882,Godzilla (1998),Action|Sci-Fi|Thriller,0.5612544870900669,0.4623196192347848,0.5365207701262463,False,False,True
+historial_pequeno,53,19,10,2798,Problem Child (1990),Children|Comedy,0.617072704852625,0.27132538191132555,0.5306358741173002,False,False,True
+usuario_nuevo,nuevo,0,1,356,Forrest Gump (1994),Comedy|Drama|Romance|War,,,,,,False
+usuario_nuevo,nuevo,0,2,318,"Shawshank Redemption, The (1994)",Crime|Drama,,,,,,False
+usuario_nuevo,nuevo,0,3,296,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,4,2571,"Matrix, The (1999)",Action|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,5,593,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,6,260,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,7,110,Braveheart (1995),Action|Drama|War,,,,,,False
+usuario_nuevo,nuevo,0,8,480,Jurassic Park (1993),Action|Adventure|Sci-Fi|Thriller,,,,,,False
+usuario_nuevo,nuevo,0,9,589,Terminator 2: Judgment Day (1991),Action|Sci-Fi,,,,,,False
+usuario_nuevo,nuevo,0,10,2959,Fight Club (1999),Action|Crime|Drama|Thriller,,,,,,False

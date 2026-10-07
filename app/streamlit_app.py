@@ -11,8 +11,13 @@ try:
 except FileNotFoundError:
     st.error("Descargue MovieLens con: uv run python scripts/download_data.py")
     st.stop()
+st.caption(
+    f"Fuente: MovieLens Latest Small (GroupLens Research, University of Minnesota; versión 2018-09-26) · "
+    f"{len(movies):,} películas y {len(ratings):,} ratings · Harper y Konstan (2015), "
+    "doi:10.1145/2827872 · Uso académico, no comercial."
+)
 model = ContentRecommender().fit(movies)
 title = st.selectbox("Película de referencia", movies["title"].sort_values())
 if st.button("Recomendar"):
-    st.dataframe(model.recommend(title, 10), use_container_width=True)
+    st.dataframe(model.recommend(title, 10), width="stretch")
     st.info("Método: TF-IDF de géneros y similitud coseno. Riesgo: sobre-especialización.")
